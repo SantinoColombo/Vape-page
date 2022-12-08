@@ -372,6 +372,17 @@ a:hover {
     background: #fff;
 }
 
+.card:hover {
+    
+    animation: hover-card 0.3s both;
+}
+
+@keyframes hover-card {
+    100% {
+        transform: scale(1.05);
+    }
+}
+
 #preloader:before {
     content: "";
     position: fixed;
@@ -1086,7 +1097,11 @@ a:hover {
 ======================================*/
 
 .footer-paralax {
-    padding: 4rem 0 0 0;
+    padding: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .contact-mf {
@@ -1096,7 +1111,16 @@ a:hover {
 
 /*======================================
 //--//-->   FOOTER
+
+
+
+
 ======================================*/
+
+.strong-footer {
+    font-weight: bold;
+
+}
 
 footer {
     text-align: center;
