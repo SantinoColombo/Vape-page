@@ -155,6 +155,7 @@ a:hover {
     font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
+
 }
 
 .subtitle-a {
@@ -491,6 +492,8 @@ a:hover {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+
 
 .navbar-b.navbar-reduce .nav-link {
     color: #0078ff;
@@ -938,6 +941,7 @@ a:hover {
 }
 
 
+
 /*======================================
 //--//-->   BLOG-SINGLE
 ======================================*/
@@ -1207,6 +1211,9 @@ footer .credits a {
 @media (min-width: 577px) {
     .counter-box {
         margin-bottom: 1.8rem;
+    }
+    .navbar-brand{
+        margin: 0 auto;
     }
 }
 
