@@ -1315,4 +1315,10 @@ footer .credits a {
     .back-to-top {
         bottom: 15px;
     }
+    .navbar-brand {
+        margin: auto;
+    }
+    .card-img {
+        margin: auto 0 !important
+    }
 }
