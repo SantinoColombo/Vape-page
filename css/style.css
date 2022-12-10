@@ -1318,7 +1318,8 @@ footer .credits a {
     .navbar-brand {
         margin: auto;
     }
-    .card-img {
-        margin: auto 0 !important
+    .card-blog {
+        width: 360px;
+        margin: 1rem auto;
     }
 }
